@@ -1,0 +1,14 @@
+{
+  "name": "net2wa/net2wa-php-sdk",
+  "description": "Libreria PHP per inviare messaggi WhatsApp tramite Net2wa",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Net2wa\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  }
+}
