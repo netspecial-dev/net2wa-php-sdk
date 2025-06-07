@@ -1,36 +1,38 @@
 # Net2wa PHP SDK
 
-Libreria ufficiale per inviare messaggi WhatsApp tramite API Net2wa.
+IT) Libreria per inviare messaggi transazionali WhatsApp tramite API Net2wa.
+EN) Library for sending transactional WhatsApp messages via the Net2wa API.
 
-## Installazione
+## Installazione / Installation
 
-### Metodo 1 – Composer
+### Metodo / Method 1 – Composer
 
 ```bash
 composer require net2wa/net2wa-php-sdk
 ```
 
-### Metodo 2 – Manuale
+### Metodo / Method 2 – Manuale / Manually
 
-Scarica il file `Net2waClient.php` da `src/` ed includilo nel tuo progetto.
+IT) Scarica il file `Net2waClient.php` da `src/` ed includilo nel tuo progetto.
+EN) Download the Net2waClient.php file from the src/ folder and include it in your project.
 
-## Utilizzo
+## Utilizzo / Usage
 
 ```php
 require_once 'src/Net2waClient.php';
 
 use Net2wa\Net2waClient;
 
-$client = new Net2waClient('INSERISCI_API_KEY');
+$client = new Net2waClient('API_KEY');
 
-// Invia messaggio testo
-$client->sendText('393331234567', 'Ciao dal tuo software!');
+// Invia messaggio testo / Send text message
+$client->sendText('393331234567', 'Hello World!');
 
-// Invia media
+// Invia media / Send media
 $base64 = base64_encode(file_get_contents('file.pdf'));
-$client->sendMedia('393331234567', $base64, 'file.pdf', 'application/pdf', 'Ecco il file!');
+$client->sendMedia('393331234567', $base64, 'file.pdf', 'application/pdf', 'Take your file!');
 ```
 
-## Documentazione API
+## Documentazione API / API Documentation
 
-Consulta: [https://net2wa.com](https://net2wa.com)
+[https://net2wa.com](https://net2wa.com)
