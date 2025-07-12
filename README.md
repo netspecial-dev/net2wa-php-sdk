@@ -3,8 +3,8 @@
 
 # Net2wa PHP SDK
 
-###IT) Libreria per inviare messaggi transazionali WhatsApp tramite API Net2wa.
-###EN) Library for sending transactional WhatsApp messages via the Net2wa API.
+IT) Libreria per inviare messaggi transazionali WhatsApp tramite API Net2wa. \n
+EN) Library for sending transactional WhatsApp messages via the Net2wa API.
 
 ## Installazione / Installation
 
