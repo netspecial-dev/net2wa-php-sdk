@@ -1,3 +1,6 @@
+# IT) Crea un account su www.net2wa.com ed ottieni la tua API KEY
+# EN) Create an account on www.net2wa.com and obtain your API KEY
+
 # Net2wa PHP SDK
 
 IT) Libreria per inviare messaggi transazionali WhatsApp tramite API Net2wa.
