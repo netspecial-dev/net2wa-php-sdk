@@ -18,6 +18,7 @@ composer require net2wa/net2wa-php-sdk
 ### Metodo / Method 2 – Manuale / Manually
 
 IT) Scarica il file `Net2waClient.php` da `src/` ed includilo nel tuo progetto.
+
 EN) Download the Net2waClient.php file from the src/ folder and include it in your project.
 
 ## Utilizzo / Usage
